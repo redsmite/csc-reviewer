@@ -122,7 +122,15 @@ body{
 	cursor: pointer;
 }
 
-#end-button{
-	width: 1em;
-	height: 1em;
+#end-exam{
+	margin: 0 auto;
+	margin-top: 2em;
+	text-align: center;
+	padding: 0.1em;
+	font-size: 1em;
+	width: 5em;
+	height: 1.4em;
+	background: #6C757D;
+	color: #f0f0f0;
+	cursor: pointer;
 }
