@@ -4202,7 +4202,6 @@ function getCategory(array) {
 
 document.getElementById("submit-button").addEventListener("click", getAnswer);
 document.getElementById("next-button").addEventListener("click", nextQuestion);
-document.getElementById("end-exam").addEventListener("click", endExam);
 
 function getQuestion(array){
 
