@@ -4125,23 +4125,23 @@ let list = [
 	'c']
 ];
 
-// function shuffle(array) {
-//   let currentIndex = array.length,  randomIndex;
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
 
-//   // While there remain elements to shuffle.
-//   while (currentIndex != 0) {
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
 
-//     // Pick a remaining element.
-//     randomIndex = Math.floor(Math.random() * currentIndex);
-//     currentIndex--;
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
 
-//     // And swap it with the current element.
-//     [array[currentIndex], array[randomIndex]] = [
-//       array[randomIndex], array[currentIndex]];
-//   }
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
 
-//   return array;
-// }
+  return array;
+}
 
 function formatAsPercent(num) {
   return new Intl.NumberFormat('default', {
@@ -4320,6 +4320,8 @@ let score = 0;
 let total = 0;
 
 let list_index = 0;
-// shuffle(list);
+shuffle(list);
 document.getElementById("choice_one").checked = true;
 getRandomQuestion();
+
+console.log('hello test test test');
