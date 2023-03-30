@@ -18,7 +18,7 @@ body{
 #top-title{
 	padding: 1em;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2em;
 	color: #28A745;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .content-container{
-	font-size: 1.5em;
+	font-size: 1.25em;
 	min-height: 70vh;
 }
 
